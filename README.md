@@ -15,25 +15,25 @@ Purpose of repository is to demonstrate use of right test cases for right purpos
 
 Code requires java 1.8,maven  and Mysql installation to run
 
-# Clean and build the entire code
+## Clean and build the entire code
 
 ```
 mvn clean install
 ```
 
-# To run all unit tests
+## To run all unit tests
 ```
 mvn test -Dtest=*,!*integration*/**/* test
 ```
 
-# To run all integration tests
+## To run all integration tests
 ```
 mvn test -Dtest=*,*integration*/**/* test
 ```
-# To Deploy app using Jenkin
+## To Deploy app using Jenkin
 Import job on jenkins using Pipeline jobs -> provide CreateDeployment.groovy in dsl scripts from the git repo
 
-# To See JaCoCo Reports. 
+## To See JaCoCo Reports. 
 ```
 mvn clean verify
 ```
