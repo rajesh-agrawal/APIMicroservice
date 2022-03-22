@@ -5,10 +5,10 @@
 
 API Microservice is a microservice for adding customer entity and displaying customer information.
 Purpose of repository is to demonstrate use of right test cases for right purpose instead of using it from compliance perspective. 
-- Showcase use of unit test cases for validation and corner case checking
-- Show use of integration testing 
-- ✨Show DEVOPS integration commands for testing unit and integreation testing seperately✨
-- ✨Run  Java code coverage on jenkins to know test converage 
+✨ Showcase use of unit test cases for validation and corner case checking
+✨ Use of integration testing and integration with Jenkins
+✨ Jenkin Job to run all  commands for testing unit and integreation testing 
+✨ Run  Java code coverage to know test converage 
 
 
 ## Installation
